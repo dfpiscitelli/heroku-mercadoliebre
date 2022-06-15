@@ -1,0 +1,99 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}       
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+.precios {
+    font-size: 18px;
+    margin-right: 90px;
+}
+
+.descuentos {
+    font-size: 16px;
+    color: #39b54a;
+}
+
+.descripciones {
+    display: none;
+}
+
+.camion {
+    color: #39b54a;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+}
+
+.camion:hover {
+    color: #39b54a;
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    transform: rotateZ(270deg);
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    padding: 5vw;
+    background-color: #ebebeb;
+}
+
+.articleCaracteristicas {
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    position: relative;
+}
+
+.preciosYDesc {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+article {
+    margin: 10px;
+    background-color: white;
+    padding: 10px;
+}
+
+article:hover {
+    background-color: #777;
+    transition: 0.5s;
+}
+
+main section {
+    display: grid;
+    grid-template-columns: 1fr;
+}

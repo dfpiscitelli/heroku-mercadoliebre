@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}       
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+footer {
+    text-align: center;
+}
+
+.icono {
+    font-size: 2em;
+    color: #1259c3;
+    margin-bottom: 10px;
+}
+
+.containerFooter {
+    margin-top: 20px;
+    padding: 10px;
+}

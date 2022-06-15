@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Mercado Liebre</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/footer-mobile.css">
+    <link rel="stylesheet" href="css/footer-tablet.css">
+    <link rel="stylesheet" href="css/footer-desktop.css">
+    <link rel="stylesheet" href="css/main-mobile.css">
+    <link rel="stylesheet" href="css/main-tablet.css">
+    <link rel="stylesheet" href="css/main-desktop.css">
+    <link rel="stylesheet" href="css/header-mobile.css">
+    <link rel="stylesheet" href="css/header-tablet.css">
+    <link rel="stylesheet" href="css/header-desktop.css">
+    <link rel="stylesheet" href="css/register-mobile.css">
+    <link rel="stylesheet" href="css/register-tablet.css">
+    <link rel="stylesheet" href="css/register-desktop.css">
+    <link rel="stylesheet" href="css/login-mobile.css">
+    <link rel="stylesheet" href="css/login-tablet.css">
+    <link rel="stylesheet" href="css/login-desktop.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+rel="stylesheet" />
+</head>
+<body>
+    <header class="main-header">
+        <div class="main-header-top-bar">
+            <img src="./images/logo-mercado-liebre.svg" alt="" class="logo">
+            <div class="buscador">
+                <p>
+                    <form action="" method="post">
+                    <input type="text" placeholder="Buscar productos, marcas y más">
+                    </form>
+                </p>
+                <i class="fa-solid fa-magnifying-glass lupa"></i>
+            </div>
+        <div class="money">
+            <i class="fa-solid fa-hand-holding-dollar"></i>
+            Comprá en cuotas y sin tarjeta de crédito
+        </div>
+       </div>
+        <nav class="navMain">
+            <nav class="navbarLeft">
+                <a href=""> Ofertas </a>
+                <a href=""> Tiendas oficiales </a> 
+                <a href=""> Vender </a> 
+                <a href=""> Ayuda </a>
+            </nav>
+            <nav class="navbarRight">
+                <a href="/register.html">Creá tu cuenta</a>
+                  <i class="fa-regular fa-address-card"></i>
+                <a href="/login.html">Ingresá</a>
+                  <i class="fa-solid fa-right-to-bracket"></i>
+                <a href="">Mis Compras</a>
+                  <i class="fa-solid fa-basket-shopping"></i>
+            </nav>
+        </nav>
+        <nav class="burger-menu"> <a href="/"><i class="fas fa-bars"></i></a>
+        </nav>
+        <div class="banner">
+        <img src="./images/img-home-banner.jpg" alt="">
+        </div>
+    </header>
+    <main>
+        <p>
+            <form action="" method="post" class="registerForm">
+                <input type="text" name="nombre" placeholder="Nombre y apellido" class="datosRegister" required>
+                <input type="email" name="usuario" placeholder="Nombre de usuario" class="datosRegister" required>
+                <label>Fecha de nacimiento:</label>
+                <input type="date" name="Nacimiento" value="2022-06-29" max="2004-06-07">
+                <input type="text" name="Adress" placeholder="Domicilio" class="datosRegister">
+                <label class="tipoCuenta">Tipo de cuenta:
+                <input type="radio" name="perfil" value="Comprador">Comprador</input>
+                <input type="radio" name="perfil" value="Vendedor">Vendedor</input>
+                </label>
+                <label>Categorías:</label>
+                    <input type="checkbox">Electro
+                    <input type="checkbox">Moda
+                    <input type="checkbox">Hogar
+                    <input type="checkbox">Juguetería
+                    <input type="checkbox">Vida sana
+                <label>Imagen de perfil:</label>
+                <input type="file" name="photo" accept="jpg" multiple>
+                <input type="password" name="contraseña" placeholder="Contraseña" required>
+                <input type="password" name="confirmar contraseña" placeholder="confirmar contraseña" required>
+                <button type="submit">Enviar</button>
+                <button type="reset">Borrar</button>
+                </form>
+        </p>
+    </main>
+</body>
+</html>

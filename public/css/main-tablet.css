@@ -1,0 +1,13 @@
+@media (min-width: 361px) {
+
+.descripciones {
+display: block;
+font-size: 16 px;
+margin-top: 20px;
+}
+
+main section {
+    grid-template-columns: 1fr 1fr;
+}
+
+}

@@ -77,23 +77,25 @@ h2 {
 .navMain {
     padding: 20px;
 }
+
 .registerForm {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 20px;
 }
 
-.datosRegister{
-    margin-top: 10px;
-    margin-bottom: 10px;
+.inputRegister {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    height: 2rem;
 }
 
-label {
-    margin-bottom: 10px;
+.inputContainerReg {
+    padding: 0.7em 3em;
+    width: 80vw;
+    border: none;
 }
 
-.tipoCuenta {
-    display: flex;
-    flex-direction: row;
-}

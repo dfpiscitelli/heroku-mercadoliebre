@@ -28,11 +28,9 @@ rel="stylesheet" />
         <div class="main-header-top-bar">
             <img src="./images/logo-mercado-liebre.svg" alt="" class="logo">
             <div class="buscador">
-                <p>
                     <form action="" method="post">
                     <input type="text" placeholder="Buscar productos, marcas y más">
                     </form>
-                </p>
                 <i class="fa-solid fa-magnifying-glass lupa"></i>
             </div>
         <div class="money">
@@ -63,13 +61,42 @@ rel="stylesheet" />
         </div>
     </header>
     <main>
-        <p>
-            <form action="" method="post" class="loginForm">
-                <input type="email" name="usuario" placeholder="Nombre de usuario" class="datosRegister">
-                <input type="password" name="contraseña" placeholder="Contraseña" class="datosdatosRegister">
-                <button type="submit" class="botonLogin">Enviar</button>
-                </form>
-        </p>
+        <form action="" method="post" class="loginForm">
+            <fieldset class="inputContainerLog">
+                <input type="email" name="usuario" placeholder="Nombre de usuario" required class="inputLogin">
+            </fieldset>
+            <fieldset class="inputContainerLog">
+                <input type="password" name="contraseña" placeholder="Contraseña" required class="inputLogin">
+            </fieldset>
+            <fieldset class="formsBoton">
+                <button type="submit" class="botonLogin">Ingresar</button>
+            </fieldset>
+        </form>
     </main>
+    <footer>
+        <div class="containerFooter">
+        <section>
+            <div><i class="fa-solid fa-credit-card icono"></i></div>
+            <div><h4><b>Pagá con tarjeta o en efectivo</b></h4></div>
+            <div><p>Mercado Liebre Cash, tenés cuotas sin interés con tarjeta o efectivo en
+                puntos de pago. ¡Y siempre es seguro!</p></div>
+        </section>
+        <section>
+            <div><i class="fa-solid fa-gift icono"></i></div>
+            <div><h4><b>Envío gratis desde $ 2.500</b></h4></div>
+            <div><p>Solo por estar registrad@ en Mercado Liebre tenés envíos gratis en miles de
+                productos. Es un beneficio de Mercado Puntos.</p></div>
+        </section>
+        <section>   
+            <div><i class="fa-solid fa-user-shield icono"></i></div>
+            <div><h4><b>Seguridad, de principio a fin</b></h4></div>
+            <div><p>¿No te gusta? ¡Devolvelo! En Mercado Liebre, no hay nada que no puedas 
+                hacer, porque estás siempre protegid@.</p></div>    
+        </section>
+        </div>
+        <div class="copyright">
+            <p>Copyright © 1999-2020 MercadoLiebre S.R.L.</p>
+        </div>
+    </footer>
 </body>
 </html>

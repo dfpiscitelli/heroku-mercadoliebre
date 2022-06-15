@@ -4,7 +4,7 @@ const app = express();
 const path = require('path');
 const port = process.env.PORT || 2003;
 
-app.listen(2003, () => {  
+app.listen(port, () => {  
     console.log("corriendo on port 2003");
 });
 const pathPublic = path.resolve(__dirname, '../public');

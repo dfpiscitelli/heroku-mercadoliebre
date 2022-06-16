@@ -25,40 +25,47 @@ rel="stylesheet" />
 </head>
 <body>
     <header class="main-header">
-        <div class="main-header-top-bar">
-            <img src="./images/logo-mercado-liebre.svg" alt="" class="logo">
-        <div class="buscador">
-                <form action="" method="post">
-                    <input type="text" placeholder="Buscar productos, marcas y más">
-                </form>
-            <i class="fa-solid fa-magnifying-glass lupa"></i>
-        </div>
-        <div class="money">
+        <section class="main-header-top-bar">
+            <a href="/">
+              <img src="./images/logo-mercado-liebre.svg" alt="" class="logo">
+            </a>
+            <form action="/" method="post"class="searchContainer">
+            <fieldset class="buscador">
+                <input type="text" placeholder="Buscar productos, marcas y más" class="inputSearch">
+                <button type="submit">
+                <i class="fa-solid fa-magnifying-glass lupa"></i>
+                </button>
+            </fieldset>
+            </form>
+            <div class="money">
             <i class="fa-solid fa-hand-holding-dollar"></i>
             Comprá en cuotas y sin tarjeta de crédito
-        </div>
-       </div>
-        <nav class="navMain">
-            <nav class="navbarLeft">
-                <a href=""> Ofertas </a>
-                <a href=""> Tiendas oficiales </a> 
-                <a href=""> Vender </a> 
-                <a href=""> Ayuda </a>
-            </nav>
-            <nav class="navbarRight">
-                <a href="/register.html">Creá tu cuenta</a>
-                  <i class="fa-regular fa-address-card"></i>
-                <a href="/login.html">Ingresá</a>
-                  <i class="fa-solid fa-right-to-bracket"></i>
-                <a href="">Mis Compras</a>
-                  <i class="fa-solid fa-basket-shopping"></i>
-            </nav>
+            </div>
+        </section>
+    <section>
+    <nav class="burger-menu"><a href="/"><i class="fas fa-bars"></i></a>
+    </nav>
+    <nav class="navMain">
+        <nav class="navbarLeft">
+            <a href=""> Ofertas </a>
+            <a href=""> Tiendas oficiales </a> 
+            <a href=""> Vender </a> 
+            <a href=""> Ayuda </a>
         </nav>
-        <nav class="burger-menu"> <a href="/"><i class="fas fa-bars"></i></a>
+        <nav class="navbarRight">
+            <a href="/register.html">Creá tu cuenta</a>
+            <i class="fa-regular fa-address-card"></i>
+            <a href="/login.html">Ingresá</a>
+            <i class="fa-solid fa-right-to-bracket"></i>
+            <a href="">Mis Compras</a>
+            <i class="fa-solid fa-basket-shopping"></i>
         </nav>
-        <div class="banner">
-        <img src="./images/img-home-banner.jpg" alt="">
-        </div>
+    </nav>
+    <section class="banner">
+        <figure>
+            <img src="./images/img-home-banner.jpg" alt="">
+        </figure>
+    </section>
     </header>
     <main>
         <h2>Basado en tu última visita</h2>

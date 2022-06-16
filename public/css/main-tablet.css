@@ -1,9 +1,16 @@
-@media (min-width: 361px) {
+@media (min-width: 480px) {
 
 .descripciones {
 display: block;
 font-size: 16 px;
 margin-top: 20px;
+visibility: hidden;
+}
+
+.descripciones:hover {
+    display: block;
+    visibility: visible;
+    background-color: red;
 }
 
 main section {

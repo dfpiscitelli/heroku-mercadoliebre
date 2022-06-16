@@ -89,11 +89,73 @@ article {
 }
 
 article:hover {
-    background-color: #777;
-    transition: 0.5s;
+    box-shadow: 0px 0px 10px #777;
 }
 
 main section {
     display: grid;
     grid-template-columns: 1fr;
+}
+
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.inputRegister {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    height: 2rem;
+}
+
+.inputContainerReg {
+    padding: 0.7em 3em;
+    width: 80vw;
+    border: none;
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.botonLogin:hover {
+    background-color: #0022AA;
+    transition: 0s;
+}
+
+.inputContainerLog {
+    padding: 0.7em 3em;
+    width: 80vw;
+    border: none;
+}
+
+.inputLogin {
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    height: 2rem;
+}
+
+.botonLogin {
+    border: none;
+    background-color: #0022AA;
+    padding: 0.7em;
+    border-radius: 5px;
+    color: #FFF;
+    margin: 1em;
+}
+
+.formsBoton {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: none
 }

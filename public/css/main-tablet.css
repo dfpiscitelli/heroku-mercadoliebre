@@ -7,10 +7,9 @@ margin-top: 20px;
 visibility: hidden;
 }
 
-.descripciones:hover {
+.articuloCompleto:hover .articleCaracteristicas .descripciones {
     display: block;
     visibility: visible;
-    background-color: red;
 }
 
 main section {
